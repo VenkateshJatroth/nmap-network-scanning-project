@@ -1,0 +1,9 @@
+# Nmap 7.94SVN scan initiated Thu Jun 20 17:55:13 2024 as: nmap -p- -oN /home/kali/scans/full_port_scan.txt testphp.vulnweb.com
+Nmap scan report for testphp.vulnweb.com (44.228.249.3)
+Host is up (0.26s latency).
+rDNS record for 44.228.249.3: ec2-44-228-249-3.us-west-2.compute.amazonaws.com
+Not shown: 65528 filtered tcp ports (no-response), 6 filtered tcp ports (host-unreach)
+PORT   STATE SERVICE
+80/tcp open  http
+
+# Nmap done at Thu Jun 20 18:14:24 2024 -- 1 IP address (1 host up) scanned in 1151.51 seconds

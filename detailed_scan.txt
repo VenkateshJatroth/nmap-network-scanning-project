@@ -1,0 +1,15 @@
+# Nmap 7.94SVN scan initiated Thu Jun 20 17:46:46 2024 as: nmap -sV -sC -oN /home/kali/scans/detailed_scan.txt testphp.vulnweb.com
+Nmap scan report for testphp.vulnweb.com (44.228.249.3)
+Host is up (0.26s latency).
+rDNS record for 44.228.249.3: ec2-44-228-249-3.us-west-2.compute.amazonaws.com
+Not shown: 993 filtered tcp ports (no-response), 5 filtered tcp ports (host-unreach)
+PORT   STATE SERVICE VERSION
+53/tcp open  domain  (generic dns response: NOTIMP)
+80/tcp open  http    nginx 1.19.0
+|_http-title: Home of Acunetix Art
+1 service unrecognized despite returning data. If you know the service/version, please submit the following fingerprint at https://nmap.org/cgi-bin/submit.cgi?new-service :
+SF-Port53-TCP:V=7.94SVN%I=7%D=6/20%Time=6674A390%P=x86_64-pc-linux-gnu%r(D
+SF:NSVersionBindReqTCP,E,"\0\x0c\0\x06\x81\x84\0\0\0\0\0\0\0\0");
+
+Service detection performed. Please report any incorrect results at https://nmap.org/submit/ .
+# Nmap done at Thu Jun 20 17:48:16 2024 -- 1 IP address (1 host up) scanned in 90.33 seconds
